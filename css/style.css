@@ -471,7 +471,7 @@ textarea:focus {
     width: 750px;
 }
 .colore {
-    background: linear-gradient(92deg, rgb(255 191 244), rgb(27 0 31));
+background: linear-gradient(92deg, rgb(255 191 244), rgb(159 0 183));
 }
 .card {
     position: relative;
