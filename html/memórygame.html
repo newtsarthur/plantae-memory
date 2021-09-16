@@ -1,0 +1,58 @@
+<!DOCTYPE html lang="pt-br">
+<!-- @copyright newtsarthur -->
+<html class="colore w">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Jogo da memória</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="icon" type="image/jpg" href="../img/lof.png"/>
+        <script type="text/javascript" href="../js/main.js"></script>
+    </head>
+    <body onload="criarGrade()">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <div id="toggle"></div>
+                <script>
+                    const toggle = document.getElementById('toggle');
+                    toggle.onclick = function() {
+                        toggle.classList.toggle('active');
+                    }
+                </script>
+            </label>
+            <label title="reino plantae - logo" class="logo">
+                <a href=""><img src="../img/lof.png" class="logocrow"></a>
+            </label>
+            <ul class="menu-urls">
+                <li>
+                    <a title="página inicial" href="../index.html">home</a>
+                </li>
+                <li class="testa a">
+                    <a title="jogo da memória" href="">jogar</a>
+                </li>
+                <li>
+                    <a title="envie sua opnião sobre o site" href="./feedback.html">feedback</a>
+                </li>
+                <li>
+                    <a title="informações sobre o reino plantae" href="./reinoplantae.html">reino plantae</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="escondido"><ul></ul></nav>
+        <div class="container">
+            <div class="container2">
+                <!-- <h1>🍍Plantae Memory🍉</h1> -->
+                <h1><a title="🍍plantae memory🍉" href=""><img class="gifs" src="../img/generatedtext.png"></a></h1>
+            </div>
+        </div>
+        <!-- <h1>Jogo da memória</h1> -->
+        <p class="pont">Pontos: <span id="pontos"></span></p>
+        <nav class="escondido"><ul></ul></nav>
+        <div id="grade">
+        </div>
+        <script type="text/javascript" src="../js/gamememory.js"></script>
+        <nav class="escondido"><ul></ul></nav>
+        <nav class="escondido"><ul></ul></nav>
+    </body>
+</html>
